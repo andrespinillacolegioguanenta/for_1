@@ -1,11 +1,11 @@
-# Programa para calcular el gasto de agua de una vivienda
+# Programa para calcular el número de pares y el número de impares
 
 # -----------------
 # libraries
 # -----------------
 
 print("--------------------------------------------")
-print("--------calculo del gasto del agua----------")
+print("--------calculo pares e impares----------")
 print("--------------------------------------------")
 import math
 
@@ -21,7 +21,7 @@ LISTA_NUMEROS ="NUEMEROS: "
 # processing
 # -----------------
 
-for i in range (1, 6):
+for i in range (1, 21):
     n=int(input("Digite el numero " + str(i)+":"))
     LISTA_NUMEROS = LISTA_NUMEROS + str(n) +" "
     m = n%2

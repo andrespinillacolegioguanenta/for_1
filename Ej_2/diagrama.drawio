@@ -1,11 +1,102 @@
 <mxfile host="65bd71144e">
     <diagram id="0gSWWOb0BGkP3ftcPsrl" name="Page-1">
-        <mxGraphModel dx="532" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="709" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;INICIO&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="200" y="30" width="120" height="80" as="geometry"/>
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;INICIO&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+                    <mxGeometry x="227.5" y="-30" width="105" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="5" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;MULTIPLOS_DE_7 =0&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;background-color: transparent; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;MULTIPLOS_DE_9&lt;/b&gt;&lt;b style=&quot;&quot;&gt;=0&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="70" width="200" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" parent="1" source="8" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="1" source="8" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;i=1000,5001&lt;/font&gt;&lt;/b&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="150" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="11" target="16" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="150" y="275"/>
+                            <mxPoint x="150" y="400"/>
+                            <mxPoint x="280" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="580" y="275"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;&lt;b style=&quot;&quot;&gt;i%7==0&lt;/b&gt;&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
+                    <mxGeometry x="220" y="230" width="120" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="590" y="400"/>
+                            <mxPoint x="280" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;CANTIDAD DE MULTIPLOS_DE_7&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(63, 63, 63); font-size: 14px; background-color: transparent;&quot;&gt;=&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;CANTIDAD DE MULTIPLOS_DE_7&lt;/b&gt;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;+1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="300" width="420" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="16" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="80" y="475"/>
+                            <mxPoint x="80" y="180"/>
+                            <mxPoint x="210" y="180"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: rgb(0, 0, 0);&quot;&gt;i%9==0&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="430" width="160" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.585;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="29" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="630" y="548"/>
+                            <mxPoint x="630" y="640"/>
+                            <mxPoint x="80" y="640"/>
+                            <mxPoint x="80" y="180"/>
+                            <mxPoint x="210" y="180"/>
+                        </Array>
+                        <mxPoint x="630" y="590" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" parent="1" source="20" target="21" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 14px;&quot;&gt;CANTIDAD DE MULTIPLOS_DE_7&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;CANTIDAD DE MULTIPLOS_DE_9&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" parent="1" vertex="1">
+                    <mxGeometry x="890" y="230" width="250" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px; color: rgb(0, 0, 0);&quot;&gt;FIN&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" parent="1" vertex="1">
+                    <mxGeometry x="962.5" y="420" width="105" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;CANTIDAD DE MULTIPLOS_DE_9&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(63, 63, 63); font-size: 14px; background-color: transparent;&quot;&gt;=&lt;b style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;CANTIDAD DE MULTIPLOS_DE_9&lt;/b&gt;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; font-size: 14px; color: rgb(63, 63, 63);&quot;&gt;+1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="520" width="420" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;entryX=0.594;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="16" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="629" y="480"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
